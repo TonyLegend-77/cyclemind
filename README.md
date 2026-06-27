@@ -1,4 +1,4 @@
-   # CycleMind                               
+   # CycleMind                                
                                          
 AI-powered market-regime trading agent for BTC, ETH, and SOL — built on Bitget.  
   
