@@ -5,7 +5,7 @@ AI-powered market-regime trading agent for BTC, ETH, and SOL — built on Bitget
 CycleMind reads market conditions across four integrated modules and surfaces signals you can act on  directly,  rather than just showing raw data.
 
 ## Modules 
-
+ 
 1. **Market Regime Detection** — the core engine. Classifies each asset into one of five regimes (strong/weak uptrend, range-bound, weak/strong downtrend) using a composite confidence score weighted across Volume Divergence (25%), BTC Dominance Momentum (20%), Indicator Agreement — RSI/MACD/EMA (30%), and Funding Rate Alignment (25%). Each asset has its own confidence threshold (BTC 60%, ETH 62%, SOL 68%) before a signal is considered actionable. 
 2. **Signal-Based DCA** — scales DCA buy size based  on Fear & Greed Index instead of a fixed calendar.
 3. **Liquidation Heatmap** — estimates liquidation price clusters across common leverage tiers using live open interest and price data. Proximity to a cluster feeds back into the regime engine to reduce suggested position sizing near cascade-risk zones.
